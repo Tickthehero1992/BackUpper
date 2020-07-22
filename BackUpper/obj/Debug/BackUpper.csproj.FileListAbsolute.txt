@@ -7,4 +7,3 @@ D:\work\BackUpper\BackUpper\obj\Debug\BackUpper.csproj.GenerateResource.cache
 D:\work\BackUpper\BackUpper\obj\Debug\BackUpper.csproj.CoreCompileInputs.cache
 D:\work\BackUpper\BackUpper\obj\Debug\BackUpper.exe
 D:\work\BackUpper\BackUpper\obj\Debug\BackUpper.pdb
-D:\work\BackUpper\BackUpper\obj\Debug\BackUpper.csprojAssemblyReference.cache
