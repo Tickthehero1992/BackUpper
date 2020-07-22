@@ -15,12 +15,6 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_0182A743357D45BD87C3551B339A8D45"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_317850845A9C89735165138DDCAEE781"
         "OwnerKey" = "8:_9F4DE53D0F1749DEB5CC3537B16C76E9"
         "MsmSig" = "8:_UNDEFINED"
@@ -28,6 +22,12 @@
         "Entry"
         {
         "MsmKey" = "8:_9F4DE53D0F1749DEB5CC3537B16C76E9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A0C3A9B8B73D49E1AF4E62C4D5FC0AF3"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -130,26 +130,6 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0182A743357D45BD87C3551B339A8D45"
-            {
-            "SourcePath" = "8:C:\\Users\\perei\\Desktop\\1 (1).ico"
-            "TargetName" = "8:1 (1).ico"
-            "Tag" = "8:"
-            "Folder" = "8:_1189B146DBE5416685FFAA4A3D2C8609"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_317850845A9C89735165138DDCAEE781"
             {
             "AssemblyRegister" = "3:1"
@@ -179,6 +159,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A0C3A9B8B73D49E1AF4E62C4D5FC0AF3"
+            {
+            "SourcePath" = "8:C:\\Users\\perei\\Documents\\hammer_head_fix_icon_145977.ico"
+            "TargetName" = "8:BackApper"
+            "Tag" = "8:"
+            "Folder" = "8:_1189B146DBE5416685FFAA4A3D2C8609"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
         }
@@ -249,7 +249,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Back Apper"
         "ProductCode" = "8:{D5EBA136-D6C1-4E43-8438-C4B2E9B06B7D}"
-        "PackageCode" = "8:{AE15E17C-18D5-45D8-A0B9-8B995EC6571A}"
+        "PackageCode" = "8:{4C7E193B-700A-469A-9A35-4AAE6D4B7512}"
         "UpgradeCode" = "8:{F6D32ECE-F544-43DA-82F8-467030BA31CC}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -369,7 +369,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_533FAFD543204AF18A467970B9A53CC8"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_C68CE3817649455FAEDF6EE7A868B5DB"
             {
             "Name" = "8:BackApper"
             "Arguments" = "8:"
@@ -377,24 +377,24 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_9F4DE53D0F1749DEB5CC3537B16C76E9"
+            "Target" = "8:_A0C3A9B8B73D49E1AF4E62C4D5FC0AF3"
             "Folder" = "8:_12F85E2DB7844AE2964309D12A6B2B60"
             "WorkingFolder" = "8:_1189B146DBE5416685FFAA4A3D2C8609"
-            "Icon" = "8:_0182A743357D45BD87C3551B339A8D45"
+            "Icon" = "8:"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_85E7553D21484755BA839BBD004FA34F"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_FD0EF43F55404FF5A94EF6D076126496"
             {
-            "Name" = "8:BackApper"
+            "Name" = "8:Shortcut to hammer_head_fix_icon_145977.ico"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_9F4DE53D0F1749DEB5CC3537B16C76E9"
+            "Target" = "8:_A0C3A9B8B73D49E1AF4E62C4D5FC0AF3"
             "Folder" = "8:_2034DAD581C84D44BCBA12FB9738A916"
             "WorkingFolder" = "8:_1189B146DBE5416685FFAA4A3D2C8609"
-            "Icon" = "8:_0182A743357D45BD87C3551B339A8D45"
+            "Icon" = "8:"
             "Feature" = "8:"
             }
         }
