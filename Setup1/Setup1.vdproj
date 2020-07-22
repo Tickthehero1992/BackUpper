@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:Back Apper"
+"ProjectName" = "8:Back Upper"
 "LanguageId" = "3:1033"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:1033"
@@ -34,13 +34,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_317850845A9C89735165138DDCAEE781"
+        "OwnerKey" = "8:_9F4DE53D0F1749DEB5CC3537B16C76E9"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9F4DE53D0F1749DEB5CC3537B16C76E9"
+        "OwnerKey" = "8:_317850845A9C89735165138DDCAEE781"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -61,6 +61,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -77,6 +93,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -225,7 +249,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Back Apper"
         "ProductCode" = "8:{D5EBA136-D6C1-4E43-8438-C4B2E9B06B7D}"
-        "PackageCode" = "8:{7B3B351D-CB69-426F-83FB-F36008EFEB50}"
+        "PackageCode" = "8:{AE15E17C-18D5-45D8-A0B9-8B995EC6571A}"
         "UpgradeCode" = "8:{F6D32ECE-F544-43DA-82F8-467030BA31CC}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -236,11 +260,11 @@
         "Manufacturer" = "8:TickTheHero"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:Back Apper"
+        "Title" = "8:Back Upper"
         "Subject" = "8:"
         "ARPCONTACT" = "8:TickThehero"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:Back Apper for Igreench"
+        "ARPCOMMENTS" = "8:Back Upper for Igreench"
         "ARPURLINFOABOUT" = "8:"
         "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"

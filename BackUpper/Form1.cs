@@ -89,6 +89,8 @@ namespace BackUpper
                 MessageBox.Show("Начинаю сохранение бэкаппов в вашу папку", "Startanul");
                 textBox2.Enabled = false;
                 textBox2.BackColor = Color.Gray;
+                textBox1.Enabled = false;
+                textBox1.BackColor = Color.LightGray;
                 button1.Enabled = false;
                 button1.BackColor = Color.Gray;
                 CopiingTimer();
@@ -122,7 +124,14 @@ namespace BackUpper
             foreach (FileInfo file in files)
             {
                 string temppath = Path.Combine(pathOut, file.Name);
-                file.CopyTo(temppath, true);
+                try
+                {
+                    file.CopyTo(temppath, true);
+                }
+                catch (Exception e)
+                { 
+                
+                }
             }
             if (Subdir)
             {
